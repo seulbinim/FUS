@@ -1,0 +1,26 @@
+/* 모든 p 요소의 배경 색상 지정 */
+p {
+    background-color:#ffc;
+}
+/* 요소 박스의 margin 위쪽/아래쪽, 왼쪽/오른쪽 모두 동일하게 지정할 때 */
+.box01{
+    margin: 10px;
+}
+/* 요소 박스의 margin 위쪽/아래쪽 10px, 왼쪽/오른쪽 20px로 지정할 때 */
+.box02{
+    margin: 10px 20px;
+}
+/* 요소 박스의 margin 위쪽 10px, 아래쪽 30px, 왼쪽/오른쪽 20px로 지정할 때 */
+.box03{
+    margin: 10px 20px 30px;
+}
+/* 요소 박스의 margin 위쪽 10px, 오른쪽 20px, 아래쪽 30px 왼쪽 40px로 지정할 때 */
+.box04{
+    margin: 10px 20px 30px 40px;
+}
+ .box05{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>스타일 겹침에 따른 우선 순위</title>
+		<style>
+			p {
+			 color : #00f ;
+			}			
+			#main {
+			 color : #0f0 ;
+			}
+            .note {
+			 color : #f00 ;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>선택자의 우선순위</h1>
+		<p id="main">하나의 요소에 여러 스타일이 중복 지정될 경우, 선택자의 우선순위에 따라 구체성(specificity)이 높은 선택자의 스타일이 적용됩니다.</p>
+		<p class="note">하나의 요소에 여러 스타일이 중복 지정될 경우, 선택자의 우선순위에 따라 구체성(specificity)이 높은 선택자의 스타일이 적용됩니다.</p>
+		<p>하나의 요소에 여러 스타일이 중복 지정될 경우, 선택자의 우선순위에 따라 구체성(specificity)이 높은 선택자의 스타일이 적용됩니다.</p>
+	</body>
+</html>
+
+
+
+
+
+
